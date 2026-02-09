@@ -9,4 +9,18 @@ sudo apt install libsdl2-ttf-dev
 gcc main.c -o app `sdl2-config --cflags --libs` -lSDL2_mixer
 gcc main.c -o app `sdl2-config --cflags --libs` -lSDL2_ttf
 ```
+## make a executable desktop app
+```
+nano ~/Desktop/myapp.desktop
+```
+## write into it :
 
+```
+[Desktop Entry]
+Type=Application
+Name=My App
+Exec=/home/path/to/myapp
+Icon=/home/path/to/icons/myicon.png
+Terminal=false
+
+```
