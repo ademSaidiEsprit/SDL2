@@ -23,3 +23,8 @@ Exec=/home/path/to/myapp
 Icon=/home/path/to/icons/myicon.png
 Terminal=false
 ```
+## make it executable file 
+```
+chmod +x ~/Desktop/myapp.desktop
+```
+right clik Allow lunching
